@@ -1,8 +1,8 @@
-### EXPERIMENT  01 ALP FOR 8086
+# EXPERIMENT--01-ALP-FOR-8086
 
-### NAME : ALDRIN.S
+# Name : ALDRIN.S
+# Reg no 212223240005
 
-### ROLL NO : 212223240005
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -72,77 +72,36 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations:
+## Programs for arithmetic  operations
 
-
-```
-org 100h         
-
-mov AX,1234H    
-mov BX,5678H    
-
-add AX,BX      
-mov [2000H],AX  
-
-mov AX,1234H    
-sub AX,BX       
-mov [2002H],AX  
-
-mov AX,1234H     
-mov CX,2525H     
-mul CX          
-mov [2004H],AX  
-
-mov AX,0F325H   
-mov CL,05H       
-div CL           
-mov [2006H],AX  
-
-RET              
-
-```
-
-## Output :
-
-<img width="1918" height="1137" alt="image" src="https://github.com/user-attachments/assets/f1e65bdd-f6f1-41c3-96f3-742f34a787e0" />
+## Addition  of 8 bit ALP 
 
 
 
-## Programs for logical  operations:
+## Output  
+<img width="1265" height="696" alt="Screenshot 2025-10-14 225233" src="https://github.com/user-attachments/assets/1572f027-cbec-454d-a2b2-c66abfa33a6a" />
 
-```
-org 100h        
-mov AX,1234H     
-mov BX,5678H   
-and AX,BX        
-mov [2000H],AX   
+ 
+## Subtraction   of 8 bit numbers  ALP 
+ 
+## Output  
+<img width="1290" height="695" alt="Screenshot 2025-10-14 225330" src="https://github.com/user-attachments/assets/b7785055-b9dc-4c57-9b0f-2e4975d15d1b" />
 
-mov AX,1234H     
-or AX,BX         
-mov [2002H],AX   
+## Multiplication alp 
+ ## Output  
+ <img width="1288" height="681" alt="Screenshot 2025-10-14 225450" src="https://github.com/user-attachments/assets/85c6f77c-d71a-4282-b2a8-ce9d0113f332" />
 
-mov AX,1234H     
-xor AX,BX        
-mov [2004H],AX   
 
-mov AX,1234H     
-not AX           
-mov [2006H],AX   
 
-RET
-         
-```
-## Output :
+## Division alp 
 
-<img width="1918" height="1137" alt="image" src="https://github.com/user-attachments/assets/3ae5c865-ca87-4b2c-b2f0-add6c1ee0a53" />
+## Output  
+<img width="1287" height="681" alt="Screenshot 2025-10-14 225519" src="https://github.com/user-attachments/assets/b04742a3-87a8-4b34-b619-a10174ef860e" />
 
 
 ## Result :
-
-Thus, to Write and execute ALP for fundamental arithmetic and logical operations using 8086 is executed successfully.
-
-
  
+Thus ,ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
