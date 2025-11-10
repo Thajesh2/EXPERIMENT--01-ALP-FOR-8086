@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
 
-# Name : ALDRIN.S
-# Reg no 212223240005
+# Name : THAJESH  K
+# Reg no 212223230229
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
